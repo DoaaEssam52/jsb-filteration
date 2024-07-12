@@ -1,0 +1,30 @@
+<div class="how-we-work position-relative row mx-0">
+  <div class="col-5 description">
+    <div class="h-100 d-flex justify-content-lg-end">
+      <p class="text-primary w-100 w-lg-50">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the
+      </p>
+    </div>
+  </div>
+  <div class="col-7 text-white bg-primary">
+    <h1 class="text-center pt-4">How we<br />work</h1>
+  </div>
+  <div class="row mx-0 justify-content-center pictures">
+    <div class="col-10 row d-none d-xl-flex mx-0">
+      <div class="col-md-3" *ngFor="let recipe of recipes; let i = index">
+        <img
+          [src]="'../../../assets/images/bakery' + (i + 1) + '.jfif'"
+          class="img-fluid"
+        />
+      </div>
+
+      <div class="col-12 text-center">
+        <button class="my-3 btn btn-warning rounded px-4">
+          <a href="#contact">contact us</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

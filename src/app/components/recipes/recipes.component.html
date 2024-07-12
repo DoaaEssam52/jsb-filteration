@@ -1,0 +1,17 @@
+<div class="container py-5 min-100-vh">
+  <h1 class="text-center text-primary">Recipes</h1>
+
+  <div class="row mx-0 justify-content-center">
+    <app-recipe
+      *ngFor="let recipe of recipes | slice : 0 : 3"
+      class="col-10 col-lg-4 mb-3"
+      [recipe]="recipe"
+    ></app-recipe>
+  </div>
+
+  <div class="text-center my-3">
+    <button class="btn btn-warning rounded px-4">
+      <a href="#contact">contact us</a>
+    </button>
+  </div>
+</div>

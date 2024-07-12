@@ -1,0 +1,14 @@
+<div class="card px-4 py-2">
+  <div class="card-body">
+    <h5 class="card-title">{{ monial.name }}</h5>
+    <p class="card-text">
+      {{ monial.description }}
+    </p>
+
+    <div class="d-flex text-danger">
+      <div *ngFor="let star of stars">
+        <i class="fas fa-star text-primary mx-1"></i>
+      </div>
+    </div>
+  </div>
+</div>

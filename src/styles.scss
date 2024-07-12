@@ -1,1 +1,129 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+@font-face {
+  font-family: sen;
+  src: url("assets/fonts/sen/Sen-Regular.ttf");
+}
+
+@font-face {
+  font-family: sen-medium;
+  src: url("assets/fonts/sen/Sen-Medium.ttf");
+}
+
+@font-face {
+  font-family: sen-bold;
+  src: url("assets/fonts/sen/Sen-Bold.ttf");
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("assets/fonts/poppins//Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-medium;
+  src: url("assets/fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url("assets/fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: abel;
+  src: url("assets/fonts/abel/Abel-Regular.ttf");
+}
+
+h1 {
+  font-size: 144px;
+  font-family: sen-bold;
+  text-transform: uppercase;
+  line-height: 138px;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  @media only screen and (max-width: 786px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+h2 {
+  font-size: 74px;
+  font-family: sen-bold;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: sen-medium;
+  font-family: 700;
+  text-transform: uppercase;
+  line-height: 34px;
+}
+
+.min-100-vh {
+  min-height: 100vh !important;
+}
+
+.btn {
+  border-radius: 30px !important;
+  text-transform: uppercase;
+
+  font-family: poppins-bold;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.btn-warning {
+  background-color: #fdba10 !important;
+  color: #fff !important;
+
+  a {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+}
+
+.bg-primary {
+  background-color: #c98a40 !important;
+}
+
+.btn-outline-primary {
+  border: 2px solid #c98a40 !important;
+  background-color: transparent !important;
+  color: #000000 !important;
+}
+
+.text-primary {
+  color: #c98a40 !important;
+}
+
+.card {
+  border-radius: 30px;
+  border-color: #ffd8ab;
+
+  .card-title {
+    font-family: poppins-bold;
+    font-size: 16px;
+    font-weight: 900;
+    color: #c98a40;
+  }
+}
+
+.form-control {
+  border-radius: 30px;
+  background-color: #ffd39f;
+  font-family: san-bold;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16.5px;
+  border: none;
+}

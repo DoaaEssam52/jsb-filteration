@@ -1,0 +1,18 @@
+.banner {
+  min-height: 100vh;
+
+  @media only screen and (max-width: 998px) {
+    min-height: unset;
+  }
+
+  .img-container {
+    background: url("../../../assets/images/how-we-work.svg");
+    background-size: contain;
+
+    .img-fluid {
+      position: relative;
+      transform: translate(-40%, 50%);
+      z-index: 1000;
+    }
+  }
+}

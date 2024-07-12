@@ -1,0 +1,26 @@
+.about-us {
+  min-height: 100vh;
+
+  @media only screen and (max-width: 1200px) {
+    min-height: unset;
+  }
+
+  .description {
+    @media only screen and (min-width: 1300px) {
+      justify-content: center;
+    }
+  }
+
+  .img-fluid {
+    max-height: 450px;
+
+    position: absolute;
+
+    right: 0;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 0;
+  }
+}
